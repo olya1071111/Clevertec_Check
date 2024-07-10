@@ -14,4 +14,6 @@ quantities is the quantity of the product
 card_number is 4 digit discount card number
 balance_number is the balance on the debit card
 
-java -cp src ./src/main/java/ru/clevertec/check/CheckRunner.java 3-1 2-5 5-1 discountCard=1111 balanceDebitCard=100
+The application generate a file result.csv which stores the information in the receipt.
+
+For example:  java -cp src ./src/main/java/ru/clevertec/check/CheckRunner.java 3-1 2-5 5-1 discountCard=1111 balanceDebitCard=100
